@@ -1,0 +1,128 @@
+body{
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: .1em;
+}
+body.noscroll{
+  overflow: hidden;
+}
+header{
+  background-image: url(../img/shunpei.jpg);
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, .1);
+  background-blend-mode: lighten;
+}
+header h2{
+  line-height: 10vh;
+}
+header nav{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 8vh;
+  position: fixed;
+  top: 0;
+  padding: 10px;
+  z-index: 8;
+  background-color: rgb(255, 255, 255);
+}
+nav ul {
+  display: none;
+}
+.nav-links{
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background-color: #fff;
+  width: 100%;
+  transform: translateX(100%);
+  transition: transform .5s ease-in;
+  z-index: 4;
+  
+}
+.nav-links ul{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 50vh auto;
+  transform: translateY(-25vh);
+  text-align: center;
+}
+.nav-links li{
+  list-style: none;
+  margin-top: 40px;
+  font-size: 20px;
+}
+.nav-links a{
+  text-decoration: none;
+  color: #000;
+}
+.nav-active{
+  transform: translateX(0%);
+}
+.burger{
+  position: fixed;
+  right: 10px;
+  top: 20px;
+  z-index: 8;
+}
+.burger div{
+  width: 25px;
+  height: 2px;
+  margin: 6px;
+  background-color: #000;
+  transition: all 0.3s ease;
+}
+.toggle .line1{
+  transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+  opacity: 0;
+}
+.toggle .line3{
+  transform: rotate(45deg) translate(-5px,-6px);
+}
+header .catch{
+  position: absolute;
+  height: 35vh;
+  top: 50%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, .6);
+  color: #fff;
+}
+.catch h2{
+  font-size: 30px;
+  text-align: left;
+  margin-left: 20px;
+}
+.catch .intro{
+  text-align: left;
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+.catch .content{
+  font-weight: 100;
+  text-align: left;
+  width: 80%;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+.catch a{
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  padding: 10px;
+}
+footer{
+  height: 10vh;
+}
+footer p{
+  line-height: 10vh;
+  margin-left: 10px;
+}
