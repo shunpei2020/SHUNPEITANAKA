@@ -1,5 +1,5 @@
 body{
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Poppins', sans-serif;
   letter-spacing: .1em;
   font-weight: 100;
 }
@@ -18,6 +18,10 @@ header{
   background-blend-mode: lighten;
   position: fixed;
   z-index: 9;
+}
+header a{
+  text-decoration: none;
+  color: #000;
 }
 header h2{
   line-height: 8vh;
@@ -139,7 +143,7 @@ main{
   text-align: center;
   padding-top: 50px;
   padding-bottom: 20px;
-  font-size: 32px;
+  font-size: 28px;
   border-bottom: 1px solid #000;
 }
 .service img{
@@ -152,6 +156,8 @@ main{
   border: 1px solid #000;
   margin: 10px auto;
   padding: 20px;
+  text-align: center;
+
 }
 .ser li{
   list-style: none;
@@ -168,7 +174,6 @@ main{
   padding: 10px;
 }
 .works{
-  height: 100vh;
   border: 1px solid #222222;
 }
 .works h2{
@@ -177,7 +182,7 @@ main{
   text-align: center;
   padding-top: 50px;
   padding-bottom: 20px;
-  font-size: 32px;
+  font-size: 28px;
   border-bottom: 1px solid #000;
 }
 .work div{
@@ -211,8 +216,58 @@ main{
   margin-top: 20px;
   color: #999;
 }
+.contact{
+  border: 1px solid #222222;
+  margin: 10px auto;
+}
+.contact h2{
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 28px;
+  border-bottom: 1px solid #000;
+}
+.form{
+  padding: 10px;
+  margin: 30px auto;
+  text-align: center;
+}
+.form .require{
+  padding: 5px;
+  background: #000;
+  color: #fff;
+  width: 50px;
+  margin: 10px auto;
+}
+.form input{
+  width: 80%;
+  margin-bottom: 10px;
+}
+.form textarea{
+  width: 80%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+input[type='submit']{
+  background: #000;
+  color: #fff;
+  width: 100px;
+  margin: 10px auto;
+  border: none;
+  padding: 5px;
+}
+.error_msg{
+  color: red;
+  font-size: 12px;
+}
 footer{
   height: 6vh;
   text-align: center;
   line-height: 6vh;
+}
+
+@media (min-width: 480px) {
+  
 }
