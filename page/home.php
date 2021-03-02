@@ -61,19 +61,27 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
   <div class="nav-links" id="links">
     <ul>
       <li><a href="../index.html">HOME</a></li>
-      <li><a href="#about">ABOUT</a></li>
-      <li><a href="#works">WORKS</a></li>
-      <li><a href="#contact">CONTACT</a></li>
+      <li><a href="#about" id="smooth">ABOUT</a></li>
+      <li><a href="#works" id="smooth">WORKS</a></li>
+      <li><a href="#contact" id="smooth">CONTACT</a></li>
       <li><a href="https://twitter.com/shunpeihuck2021" target="blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/peipei_udon/?hl=ja" target="blank"><i class="fab fa-instagram"></i></a>
+      <a href="mailto:peipei.com2020@gmail.com" target="blank"><i class="fas fa-envelope"></i></a>
     </li>
     </ul>
   </div>
   <main>
     <section class="home" id="home">
+      <img src="../img/top.JPG" alt="">
       <div class="catch">
-        <h2>Web</h2>
-        <p>✖️</p>
+        <h2>WEB</h2>
+        <p>&</p>
         <h2>SHUNPEI</h2>
+      </div>
+      <div class="icon">
+        <a href="https://twitter.com/shunpeihuck2021" target="blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/peipei_udon/?hl=ja" target="blank"><i class="fab fa-instagram"></i></a>
+        <a href="mailto:peipei.com2020@gmail.com" target="blank"><i class="fas fa-envelope"></i></a>
       </div>
     </section>
     <section class="about" id="about">
@@ -83,15 +91,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
         <br>
         <p>Web Enginner</p>
         <br>
-        <p>平成11年11月12日、埼玉県富士見市生まれ。あと1日早かったらラッキーボーイ。中学高校時代はサッカー少年。現役で青山学院大学経営学部に入学。
+        <p>平成11年11月12日、埼玉県富士見市生まれ。中学高校時代はサッカー少年。現役で青山学院大学経営学部に入学。
         <br>
         <br>
-        2020年にプログラミングに出会う。ハマってしまい、毎日コード書きまくり。</p>
+        2020年にプログラミングに出会う。ハマってしまい、毎日コード書きまくり。
+        <br>
+        <br>
+        趣味は筋トレと格闘技観戦。
+        </p>
         <br>
         <br>
         <h3>SHUNPEI TANAKA</h3>
         <br>
-        <p>Born November 12, 1999 in Fujimi City, Saitama Prefecture. Lucky boy if it's one day earlier. I was a soccer boy when I was in middle school and high school.
+        <p>Born November 12, 1999 in Fujimi City, Saitama Prefecture. I was a soccer boy when I was in middle school and high school.
         <br>
         <br>
         I am active and enrolled in the Faculty of Business Administration at Aoyama Gakuin University.
@@ -110,15 +122,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
       </div>
       <div class="ser">
         <h2>STRENGTH</h2>
-        <ul>
-          <li>・レスの速さ
+        <ul class="strength">
+          <li><h3>レスの速さ</h3>
+              <p>お客様の要望にすぐに返信、対応いたします。</p>
           </li>
-          <p>お客様の要望にすぐに返信、対応いたします。
-          </p>
-          <li>・コーディング</li>
-          <p>誰でも見やすく、アップデートがしやすい整ったコードに仕上げます。</p>
-          <li>・お客様第一</li>
-          <p>こまめに相談をしながら、できる限りクライアント様の要望に寄り添ってより良いものを作り上げていきます。</p>
+          <li><h3>コーディング</h3>
+              <p>誰でも見やすく、アップデートがしやすい整ったコードに仕上げます。</p>
+          </li>
+          <li><h3>お客様第一</h3>
+               <p>こまめに相談をしながら、できる限りクライアント様の要望に寄り添ってより良いものを作り上げていきます。</p>
+           </li>
         </ul>
       </div>
     </section>
@@ -126,32 +139,32 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
       <h2>WORKS</h2>
       <div class="work">
         <div>
-          <a href=""><img src="../img/tanablog-min.png" alt=""></a>
+          <a href="" target="blank"><img src="../img/SHUNPEI TANAKA.png" alt=""></a>
           <p>My Portfolio</p>
           <div class="btn">MORE</div>
           <div class="more">
             <h3>HTML/CSS, JavaScriptを使用</h3>
-            <p class="up">＜</p>
+            <p class="up"><i class="fas fa-chevron-up"></i></p>
           </div>
         </div>
         <div>
-          <a href=""><img src="../img/tanablog-min.png" alt=""></a>
+          <a href="https://www.blog-of-life.net/index.php" target="blank"><img src="../img/photoboaster.png" alt=""></a>
           <p>Photo Boaster</p>
           <div class="btn">MORE</div>
           <div class="more">
             <h3>HTML/CSS, JavaScript, PHPを使用</h3>
             <p>PHPの基礎を理解する目的で作成しました。画像のアップロード、ブログの作成、編集、削除や、ユーザー登録、ログイン機能、コメント機能も実装しました。</p>
-            <p class="up">＜</p>
+            <p class="up"><i class="fas fa-chevron-up"></i></p>
           </div>
         </div>
         <div>
-          <a href=""><img src="../img/crestamosya-min-min.png" alt=""></a>
+          <a href="https://shunpei2020.github.io/cresta-mosya/" target="blank"><img src="../img/crestamosya-min-min.png" alt=""></a>
           <p>LP模写サイト</p>
           <div class="btn">MORE</div>
           <div class="more">
             <h3>HTML/CSS, JavaScriptを使用</h3>
             <p>デザインカンプ(Adobe XD)からコーディングしました。</p>
-            <p class="up">＜</p>
+            <p class="up"><i class="fas fa-chevron-up"></i></p>
           </div>
         </div>
       </div>
@@ -194,7 +207,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
   </main>
 
   <footer>
-    <p>©︎SHUNPEI TANAKA</p>
+  <p>©︎SHUNPEI TANAKA</p>
   </footer>
   <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
