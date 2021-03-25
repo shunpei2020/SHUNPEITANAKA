@@ -110,7 +110,7 @@ nav ul {
 }
 
 main {
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -286,6 +286,11 @@ main {
   padding-bottom: 20px;
   font-size: 28px;
   border-bottom: 1px solid #000;
+}
+
+.work {
+  width: 90%;
+  margin: auto;
 }
 
 .work div {
