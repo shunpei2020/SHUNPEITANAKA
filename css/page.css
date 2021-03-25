@@ -247,6 +247,7 @@ main {
   border-radius: 50%;
   background-color: #444;
   color: #fff;
+  padding: 10px;
 }
 
 .circle i {
@@ -263,6 +264,7 @@ main {
 
 .detail {
   font-size: 12px;
+  text-align: left;
 }
 
 .skills {
@@ -289,16 +291,17 @@ main {
 }
 
 .work {
-  width: 90%;
-  margin: auto;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .work div {
-  margin: 10px auto;
+  margin: 30px auto;
+  text-align: center;
 }
 
 .work img {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   border: 1px solid #222222;
   object-fit: cover;
@@ -487,9 +490,25 @@ footer p {
     text-align: left;
   }
 
-  .works img {
-    width: 70%;
-    height: 500px;
+  .work {
+    width: 90%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .work div {
+    width: 35%;
+    margin: 20px 50px;
+  }
+  
+  .work img {
+    width: 100%;
+  }
+
+  .work img:hover {
+    opacity: .7;
   }
 
   .form div {

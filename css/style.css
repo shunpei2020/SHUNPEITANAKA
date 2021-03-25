@@ -110,13 +110,6 @@ header .catch {
   text-align: center;
   background-color: rgba(0, 0, 0, .6);
   color: #fff;
-  animation: popping 2s forwards;
-}
-
-@keyframes popping {
-  0% {
-    transform: translateX(-100%);
-  }
 }
 
 .catch h2 {
